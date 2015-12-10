@@ -1,0 +1,126 @@
+body{
+  background-image: url("colorful_dots_on_black.jpg");
+  width: 960px;
+  font-family: Tahoma;
+  margin: 0 auto;
+}
+
+body>header{
+  text-align: center;
+  background: linear-gradient(to left,  #0000FF 0%,#0000FF 33%,#008000 33%,#008000 66%, #FF0000 66%,#FF0000 100%);
+  color: #FFFF00;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+footer>a{
+  color: grey;
+  font-style: italic;
+}
+
+aside{
+  background-color: rgba(230, 230, 230, 0.9);
+  width: 20%;
+  float: left;
+  border-radius: 15px;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+aside nav header{
+  text-decoration: underline;
+}
+
+nav ul li{
+  list-style-type: none;
+  text-align: left;
+  list-style: url("CheckList.png");
+  margin: 5px;
+}
+
+nav ul a{
+  text-decoration: none;
+  color: black;
+}
+
+
+section{
+  float: right;
+  width: 76%;
+}
+
+article{
+  background-color: rgba(230, 230, 230, 0.9);
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+article header{
+  font-size: 1.2em;
+  color: white;
+  margin-top: 10px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+div::first-line{
+  font-style: italic;
+}
+
+div::first-letter{
+  font-size: 2.5em;
+}
+
+nav li:first-child:hover{
+  background: #FF0000;
+  border-radius: 10px;
+}
+
+nav li:nth-child(2):hover{
+  background-color: #FFA500;
+  border-radius: 10px;
+}
+
+nav li:nth-child(3):hover{
+    background-color: #FFFF00;
+    border-radius: 10px;
+}
+
+nav li:nth-child(4):hover{
+  background-color: #008000;
+  border-radius: 10px;
+}
+
+nav li:nth-child(5):hover{
+  background-color: #0000FF;
+  border-radius: 10px;
+}
+
+#webColors{
+  background-color: #FF0000;
+}
+
+#webSafeColors{
+  background-color: #FFA500;
+  color: black;
+}
+
+#RGB{
+  background-color: #FFFF00;
+  color: black;
+}
+
+#RGBA{
+  background-color: #008000;
+}
+
+#HSLHSV{
+  background-color: #0000FF;
+}
+
+#lorem{
+  background-color: #800080;
+}
