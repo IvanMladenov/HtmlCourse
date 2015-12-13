@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+    font-size: 10pt;
+}
+
+#wrapper{
+  background: url(formBackground.jpg);
+  padding: 20px;
+  width: 500px;
+  border-radius: 7px;
+}
+
+legend{
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+fieldset{
+  border: none;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid red;
+	outline: none;
+	background-color: #FFE1B4;
+}
+
+label{
+  font-size: 1.1em;
+  display: inline-block;
+  width: 100px;
+}
+
+div{
+  background-color: rgba(255,255,255, 0.3);
+  margin: 3px;
+  padding: 10px;
+  border-radius: 5px;
+  border: white;
+  width: 450px;
+}
+
+textarea {
+    height: 75px;
+    resize: vertical;
+}
+
+input textarea{
+   padding: 5px;
+   border: 1px solid rgba(128, 128, 128, 0.50);
+}
+
+textarea{
+  border-radius: 3px;
+}
+
+input{
+  border-radius: 3px;
+}
+
+#visa label::before{
+  background-image: url(visa.jpg);
+}
+
+#submit:hover {
+    background-color: yellow;
+    color: green;
+}
+
+#address label{
+  vertical-align: top;
+}
+
+#submit{
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #04152F;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  position: relative;
+  margin-left: 195px;
+}

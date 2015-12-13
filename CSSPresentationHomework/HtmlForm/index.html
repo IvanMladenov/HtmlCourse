@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <form action="#" method="get">
+        <fieldset>
+            <legend>Step 1: Your details</legend>
+            <div>
+              <label for="name">Name</label>
+              <input type="text" name="name" placeholder="First and last name">
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" name="email" placeholder="example@domain.com">
+            </div>
+            <div>
+              <label for="phone">Phone</label>
+              <input type="tel" name="phone" placeholder="eg. +447500000000">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Step 1: Delivery address</legend>
+            <div id="address">
+              <label for="address">Address</label>
+              <textarea name="address" ></textarea>
+            </div>
+            <div>
+              <label for="post-code">Post code</label>
+              <input type="text" name="post-code">
+            </div>
+            <div>
+              <label for="country">Country</label>
+              <input type="text" name="country">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Step 1: Card details</legend>
+
+            <div id="radio">
+              <label for="visa">Card type</label><br>
+              <input type="radio" name="card-type" value="VISA">
+              <label for="visa"><img src="visa.jpg" alt="" />VISA</label>
+              <input type="radio" name="card-type" value="AmEx">
+              <label for="card-type"><img src="amex.jpg" alt="" />AmEx</label>
+              <input type="radio" name="card-type" value="Mastercard">
+              <label for="card-type">Mastercard</label>
+            </div>
+            <div>
+              <label for="card">Card number</label>
+              <input type="number" name="card">
+            </div>
+            <div>
+              <label for="Security">Security code</label>
+              <input type="number" name="security-code">
+            </div>
+            <div>
+              <label for="name-on-card">Name on card</label>
+              <input type="text" name="name-on-card" placeholder="exact name as on the card">
+            </div>
+        </fieldset>
+          <input type="button" id="submit" name="button" value="BUY IT!">
+      </form>
+    </div>
+  </body>
+</html>
