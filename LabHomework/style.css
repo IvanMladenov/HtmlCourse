@@ -1,0 +1,140 @@
+@font-face {
+    font-family: HappyDays;
+    src: url(happydays.ttf);
+}
+
+body{
+    font-size: 16px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 2.5em;
+    margin: 15px 0px;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+.nav-search-box{
+    margin-top: 50px;
+}
+
+.article-details{
+    font-size: 0.8em;
+    color: #ccc;
+}
+
+.leave-comment, .author, time,
+.author a, .leave-comment a{
+    color: #999;
+    text-transform: uppercase;
+}
+
+.leave-comment a,
+.author a{
+    border-bottom: 1px dashed #999;
+}
+
+.leave-comment a:hover,
+.author a:hover{
+    border-bottom: 1px solid #999;
+}
+
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+header:after, main:after{
+    clear: both;
+}
+
+hr{
+    color: #aaa;
+    height: 1px;
+}
+
+nav, nav > ul > li{
+    display: inline-block;
+    
+}
+
+nav > ul > li{
+    margin: 0 20px;
+}
+
+nav > ul > li:first-child{
+    margin-left: 0;
+}
+
+input{
+    float: right;
+}
+
+nav a{
+    font-family: HappyDays;
+    color: #999;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+section{
+    width: 540px;
+    float: left;
+    margin: 0 10px;
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+footer{
+    width: 960px;
+}
+
+a{
+    color: #497DAD;
+    text-decoration: none;
+}
+
+aside{
+    width: 180px;
+    float: left;
+    padding: 10px;
+}
+
+main{
+    margin-top: 40px;
+}
+
+aside>ul{
+    border-top: 1px solid #aaa;
+    padding-top: 20px;
+}
+
+article p{
+    padding-bottom: 15px;
+    color: #555555;
+}
+
+.aside-box{
+    margin-bottom: 15px;
+}
+
+.aside-box header{
+    color: #999;
+    text-transform: uppercase;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 5px;
+}
+
+#previous-entries{
+    margin-top: 50px;
+}
+
+#previous-entries a{
+    vertical-align: bottom;
+}
+
