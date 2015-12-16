@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fakebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>fakebook</h1>
+            <h2>Registration</h2>
+            <h3>I is safe and it will always be!</h3>
+        </header>
+        <div id="fields">
+            <div id="left-form">
+                <fieldset>
+                    <legend>None-Important Information</legend>
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="email" placeholder="Your Email">
+                    <input type="tel" placeholder="Phone Number">
+                    <input type="password" placeholder="Your Password">
+                    <input type="url" placeholder="Website">
+                    <label for="birthday">Birthday</label><br>
+                    <input type="date" id="birthday"><br>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="other">
+                    <label for="other">Other</label>
+                </fieldset>
+                <button id="clear-form">Clear Form</button>
+            </div>
+            <div id="right-form">
+                <fieldset>
+                    <legend>Important Information *required</legend>
+
+                    <input list="countries" name="country" placeholder="Country" required>
+                    <datalist id="countries">
+                        <option value="Bulgaria">
+                        <option value="Serbia">
+                        <option value="Romania">
+                        <option value="Macedonia">
+                    </datalist>
+                    <input type="text" placeholder="Village" required>
+                    <input type="text" placeholder="District" required>
+                    <input type="text" placeholder="Street" required>
+                    <input type="text" placeholder="Nr" class="small" required>
+                    <input type="text" placeholder="Floor" class="small" required>
+                    <input type="text" placeholder="Ap Nr"class="small" required><br>
+                    <label for="colorpicker">Door Color</label><br>
+                    <input type="color"  value="#ff99cc" id="colorpicker" required>
+                    <input type="tel" placeholder="Water meter Nr" required>
+                    <input list="sizes" placeholder="Aunt Panties Size" required>
+                    <datalist id="sizes">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                    </datalist>
+                    <label for="personal-info">More Personal Information</label><br>
+                    <textarea name="more-info" id="personal-info" placeholder="Give us more information!!!" required></textarea>
+                </fieldset>
+                <button id="register">Register</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+#main{
+    width: 30%;
+    height: auto;
+}
+
+#search-box{
+    height: 30px;
+}
+
+#search-logo{
+    vertical-align: middle;
+}
+
+input{
+    margin: 10px 0;
+}

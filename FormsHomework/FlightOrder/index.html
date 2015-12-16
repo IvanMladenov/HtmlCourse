@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flight order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <p>flight order</p>
+        </header>
+        <div class="from-to">
+            <div id="first-row">
+                <label for="from">From</label><br>
+                <input list="cities" name="from" id="from" placeholder="enter a city"/>
+                <datalist id="cities">
+                    <option value="Sofia">
+                    <option value="London">
+                    <option value="Berlin">
+                    <option value="Paris">
+                </datalist>
+            </div>
+            <div id="first-row-to">
+                <label for="to">To</label><br>
+                <input list="cities" name="from" id="to" placeholder="enter a city"/><br>
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">Prefer directs</label>
+            </div>
+        </div>
+        <div id="departure-time">
+            <div>
+                <label for="date">Departure Date</label><br>
+                <input type="date" id="date" value="09.06.2014">
+            </div>
+            <div>
+                <label for="time">Time Interval</label><br>
+                <input type="time" id="time" value="00:20" placeholder="00:20">
+            </div>
+            <div>
+                <br>
+                <input type="time" placeholder="5:00">
+            </div>
+        </div>
+        <div id="return-time">
+            <div>
+                <label for="return-date">Return Date</label><br>
+                <input type="date" id="return-date" value="09.06.2014">
+            </div>
+            <div>
+                <label for="ret-time">Time Interval</label><br>
+                <input type="time" id="ret-time" value="00:20" placeholder="00:20">
+            </div>
+            <div>
+                <br>
+                <input type="time" placeholder="5:00">
+            </div>
+        </div>
+        <div id="class">
+            <div>
+                <label for="adults">12+</label><br>
+                <input type="number" id="adults">
+            </div>
+            <div>
+                <label for="children">2-12</label><br>
+                <input type="number" id="children">
+            </div>
+            <div>
+                <label for="baby">0-2</label><br>
+                <input type="number" id="baby">
+            </div>
+            <div id="choose-class">
+                <label for="choose">Choose class</label><br>
+                <select name="class" id="choose">
+                    <option value="economy">Economy</option>
+                    <option value="first">First class</option>
+                    <option value="business">Business</option>
+                </select>
+            </div>
+        </div>
+        <input type="submit" value="Search" id="search">
+    </div>
+</body>
+</html>

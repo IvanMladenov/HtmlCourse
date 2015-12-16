@@ -1,0 +1,88 @@
+body{
+    font-family: Tahoma, sans-serif;
+}
+
+form{
+
+}
+
+fieldset{
+    margin: 0 auto;
+    border: none;
+    padding-bottom: 0;
+}
+
+input{
+    margin: 5px;
+    height: 30px;
+    width: 300px;
+}
+
+a{
+    color: white;
+    margin-right: 15px;
+    font-size: 0.8em;
+    float: right;
+}
+
+p{
+    color: gray;
+}
+
+.input-forms{
+    display: flex;
+}
+
+h3{
+    margin-top: 0;
+    color: #234465;
+}
+
+#entire-form{
+    display: inline-block;
+    background-color: lightgray;
+    padding: 15px;
+}
+
+#login{
+    background-color: #234465;
+    color: white;
+}
+
+#register{
+    color: #234465;
+}
+
+fieldset>legend>span{
+    color: darkgrey;
+}
+
+legend{
+    text-transform: uppercase;
+}
+
+input[type=checkbox] {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+input[type="submit"]{
+    float: right;
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #d2d2d2;
+    border: 2px solid #234465;
+}
+
+#register>fieldset>input[type=submit]{
+    margin-bottom: 0;
+}
+
+#login>fieldset>input[type="submit"]{
+    color: white;
+    background-color: #234465;
+    border-color: sandybrown;
+    padding-bottom: 0;
+}

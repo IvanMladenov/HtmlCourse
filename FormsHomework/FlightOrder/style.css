@@ -1,0 +1,61 @@
+body{
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+p{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+}
+
+label{
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.from-to{
+    display: flex;
+}
+
+#departure-time{
+    display: flex;
+}
+
+#return-time{
+    display: flex;
+}
+
+#search{
+    float: right;
+    height: 30px;
+}
+
+#class{
+    display: flex;
+}
+
+#wrapper{
+    display: inline-block;
+    background-color: #FFC0CB;
+    padding: 5px;
+}
+
+input, select{
+    margin: 1px;
+}
+
+#adults, #children, #baby{
+    width: 46px;
+}
+
+#from, #to, #date, #return-date, #choose, #search{
+    width: 150px;
+}
+
+input[type="time"]{
+    float: left;
+    width: 70px;
+}
