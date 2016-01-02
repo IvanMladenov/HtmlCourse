@@ -1,0 +1,170 @@
+@media all and (min-width: 756px) and (max-width: 1000px){
+  body{
+    min-width: 100%;
+
+    #wrapper{
+      width: 100%;
+
+      header{
+        height: auto;
+        padding-top: 20px;
+
+        #logoarea{
+          display: block;
+          float: none;
+          padding: 0;
+          margin-bottom: 20px;
+        }
+
+        #header-area-right{
+
+          max-width: 100%;
+          display: block;
+          float: none;
+          padding: 0;
+          text-align: center;
+
+          #menu{
+            display: block;
+            float: none;
+            margin-bottom: 10px;
+
+            #nav-menu{
+              display: inline-flex;
+              text-align: center;
+            }
+          }
+
+          #search-form{
+            display: inline-block;
+            margin: 0 auto;
+            float: none;
+          }
+        }
+      }
+
+      section.contentblock{
+        width: 100%;
+        padding-top: 20px;
+        min-width: 100%;
+
+        #publicphotos{
+          width: 100%;
+          padding: 0;
+
+          h1{
+            text-align: center;
+          }
+
+          #p-albums-items{
+            width: 711px;
+            margin: 0 auto;
+
+            .p-photos-block{
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+
+      footer{
+        min-width: 100%;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 756px){
+
+  body{
+    min-width: 100%;
+  }
+  #wrapper{
+    width: 100%;
+    margin: 0 auto;
+
+    header{
+      width: 100%;
+      height: auto;
+
+      #logoarea{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+        padding: 0px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+
+      #header-area-right{
+        float: none;
+        padding: 0;
+        width: 100%;
+        margin: 0 auto;
+
+        #search-form{
+          width: 60%;
+          float: none;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+
+        nav>#nav-menu{
+          text-align: center;
+          display: block;
+
+          li{
+            margin: 0 auto;
+            margin-bottom: 5px;
+            width: 80%;
+
+            a{
+              display: block;
+            }
+          }
+        }
+      }
+
+      #menu{
+        float: none;
+        display: block;
+      }
+    }
+    section.contentblock{
+      min-width: 100%;
+      padding: 0;
+      padding-top: 20px;
+
+      #publicphotos{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+
+        #p-albums-items{
+          margin: 0 auto;
+          width: 474px;
+
+        }
+
+        h1{
+          text-align: center;
+          margin: 0;
+        }
+      }
+    }
+
+    footer{
+      #copyright{
+        margin-right: 20px;
+      }
+
+      #media{
+        float: none;
+      }
+    }
+  }
+}
+
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search job</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id = "container">
+        <header>
+            <nav>
+                <ul>
+                    <li id="search"><p>Search Business</p></li>
+                    <li id="categories"><p>Business Categories</p></li>
+                    <li id="locations"><p>Recent Locations</p></li>
+                    <li id="agents"><p>Agents Located</p></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="get">
+                <div class="field"> <label for="b-name">Business Name</label>
+                <input type="text" placeholder="enter a name" id="b-name"></div>
+                <div class="field"> <label for="country">Country</label>
+                <input type="text" placeholder="search by country" id="country"></div>
+                <div class="field"> <label for="city">City/State</label>
+                <input type="text" placeholder="search by city or state" id="city"></div>
+                <div class="field"> <label for="zip">ZIP/Postal Code</label>
+                <input type="number" placeholder="enter a postal code" id="zip"></div>
+                <div class="field"> <label for="employees">Employees</label>
+                <input type="text" placeholder="1000-5000" id="employees"></div>
+                <div class="field"> <label for="date">Startup Date</label>
+                <input type="date" id="date"></div>
+                <div class="field"> <label for="job">Job Opportunity</label>
+                <input type="text" placeholder="any" id="job"></div>
+                <div class="field"> <button>LET'S FIND YOUR JOB</button></div>
+            </form>
+        </main>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+  background: url("../images/backgroundImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Tahoma, Helvetica, sans-serif; }
+  body header {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 2px solid #DEB887; }
+    body header h1 {
+      margin-top: 40px;
+      margin-bottom: 0px;
+      color: white;
+      text-align: center;
+      font-size: 2.5em;
+      font-weight: lighter; }
+  body main {
+    margin: 0 auto; }
+    body main #forms {
+      margin: 0 auto;
+      width: 530px;
+      height: 350px;
+      margin-top: 20px; }
+      body main #forms legend {
+        margin: 0 auto;
+        color: #DEB887;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 2em; }
+      body main #forms #login {
+        background: rgba(255, 0, 0, 0.5);
+        position: absolute;
+        border-radius: 15px; }
+        body main #forms #login input[type="submit"] {
+          width: 200px;
+          height: 30px; }
+        body main #forms #login input[value="Options"] {
+          margin-bottom: 30px; }
+      body main #forms #register {
+        background: rgba(255, 0, 0, 0.5);
+        border-radius: 15px;
+        float: right; }
+
+input {
+  display: block;
+  width: 176px;
+  height: 26px;
+  padding: 0 10px;
+  margin: 0 20px 5px 20px;
+  border-radius: 5px;
+  color: #DEB887;
+  border: 2px solid gray; }
+
+input[value="Send"] {
+  margin-bottom: 30px;
+  width: 200px;
+  height: 30px; }
+
+input[type="submit"] {
+  background-color: rgba(0, 128, 0, 0.7); }
+
+/*# sourceMappingURL=style.css.map */

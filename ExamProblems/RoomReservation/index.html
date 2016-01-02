@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room reservation</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <p>
+                Room Reservation
+            </p>
+        </header>
+        <main>
+            <section>
+                <div>
+                    <h1>Basic Information</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros nec commodo.</p>
+                </div>
+                <aside>
+                    <label for="search">Search</label>
+                    <input type="search">
+                </aside>
+            </section>
+            <form action="get" class="details">
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="email" placeholder="Enter email">
+                </fieldset>
+            </form>
+            <form action="get" class="request">
+                <fieldset>
+                    <legend>Reguest a reservation</legend>
+                    <span id="rooms">
+                        <label for="room">Select a room:</label>
+                        <select name="room" id="room">
+                            <option value="1">Room 1</option>
+                            <option value="2">Room 2</option>
+                            <option value="3">Room 3</option>
+                            <option value="4">Room 4</option>
+                        </select>
+                    </span>
+                    <span id="quantity">
+                        <label for="rooms-num">Number of Rooms:</label>
+                        <input type="number" value="1" id="rooms-num">
+                    </span><br>
+                    <span class="time-interval" id="first">
+                        <label for="checkin">Check-In:</label>
+                        <input type="date" id="checkin">
+                    </span>
+                    <span class="time-interval">
+                        <label for="checkout">Check-Out:</label>
+                        <input type="date" id="checkout">
+                    </span>
+
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <input type="submit" value="Book Now">
+        </footer>
+    </div>
+</body>
+</html>

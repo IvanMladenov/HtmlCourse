@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Lemon-Regular;
+  src: url("font/Lemon-Regular.ttf"); }
+body {
+  background-color: #602D75;
+  font-family: Lemon-Regular; }
+  body #container {
+    width: 1000px;
+    background-color: #FFAE32;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    border-radius: 20px; }
+    body #container h1 {
+      text-align: center;
+      margin: 0;
+      font-size: 24px; }
+    body #container section {
+      width: 800px;
+      margin: 0 auto;
+      padding-left: 100px;
+      margin-top: 10px; }
+      body #container section article {
+        width: 200px;
+        background-color: #5F2056;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        display: inline-block;
+        margin-right: 20px;
+        padding: 10px; }
+        body #container section article h2 {
+          margin: 0 auto;
+          text-align: center;
+          color: white;
+          font-size: 22px; }
+        body #container section article button {
+          font-family: Lemon-Regular;
+          color: #9E4AFF;
+          text-align: center;
+          width: 100%;
+          border-radius: 10px;
+          font-size: 15px; }
+          body #container section article button:hover {
+            color: black;
+            cursor: pointer; }
+        body #container section article .guarantee {
+          text-align: center;
+          margin: 0;
+          color: #FFAE32; }
+        body #container section article .info, body #container section article .number {
+          margin: 5px;
+          color: white;
+          font-size: 15px; }
+        body #container section article #watch1, body #container section article #watch2, body #container section article #watch3 {
+          width: 194px;
+          height: 194px;
+          border-radius: 50%;
+          background-size: cover;
+          border: 3px solid #806671; }
+          body #container section article #watch1:hover, body #container section article #watch2:hover, body #container section article #watch3:hover {
+            border: 3px solid #FA4F00;
+            cursor: pointer; }
+
+#watch1 {
+  background-image: url("../images/watch-1.jpg"); }
+
+#watch2 {
+  background-image: url("../images/watch-2.png"); }
+
+#watch3 {
+  background-image: url("../images/watch-3.jpg"); }
+
+/*# sourceMappingURL=style.css.map */

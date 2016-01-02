@@ -1,0 +1,60 @@
+body{
+  font-family: Helvetica, Tahoma, sans-serif;
+  font-size: 16px;
+
+  #container{
+    section{
+      text-align: center;
+
+      article{
+        width: 200px;
+        height: 320px;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 10px;
+        position: relative;
+
+        .picture{
+          border: 2px solid black;
+
+          &:hover{
+            background-color: #820000;
+          }
+
+          img{
+            display: block;
+            margin: 0 auto;
+          }
+        }
+
+        a{
+          display: block;
+          color: #4E76B7;
+
+          &:hover{
+            color: #7B0100;
+          }
+        }
+
+        a.more-info{
+          vertical-align: bottom;
+          text-decoration: none;
+          position: absolute;
+          bottom: 0;
+          color: gray;
+
+          img{
+            border: 1px solid black;
+            padding: 4px;
+
+            &:hover{
+              background-color: red;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,91 @@
+body{
+  font-family: Tahoma, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#container{
+  width: 1000px;
+  margin: 0 auto;
+  background: #EEEEEE;
+
+  header{
+    nav{
+      ul{
+        margin: 0 auto;
+        padding: 0;
+        vertical-align: middle;
+        background-color: #384452;
+
+        li{
+          display: inline-block;
+          list-style: none;
+          height: 67px;
+          width: 201px;
+
+          &:hover{
+            background-color: #3BBC96;
+          }
+
+          p{
+            margin: 25px 0 0 45px;
+            color: rgba(255, 255, 255, 0.7);
+          }
+        }
+      }
+    }
+  }
+  main{
+    form{
+      .field{
+        display: inline-block;
+        margin: 30px 10px 0 10px;
+
+        label{
+          display: block;
+          margin-bottom: 10px;
+          font-weight: bold;
+        }
+
+        input{
+          height: 40px;
+          width: 201px;
+          padding: 0 10px;
+        }
+
+        button{
+          height: 44px;
+          width: 225px;
+          border: none;
+          border-radius: 5px;
+          padding: 0;
+          background-color: #3BBC96;
+          color: white;
+
+          &:hover{
+            background-color: #384452;
+          }
+        }
+      }
+    }
+  }
+}
+
+button, #date, #job, #employees{
+  margin-bottom: 30px;
+}
+
+#search{
+  background: url("../images/03-tab01.png")no-repeat;
+}
+
+#categories{
+  background: url("../images/03-tab02.png")no-repeat;
+}
+
+#locations{
+  background: url("../images/03-tab03.png")no-repeat;
+}
+
+#agents{
+  background: url("../images/03-tab04.png")no-repeat;
+}

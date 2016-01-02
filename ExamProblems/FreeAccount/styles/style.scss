@@ -1,0 +1,99 @@
+body{
+  font-family: Tahoma, Helvetica, sans-serif;
+  background-color: #EEEEEE;
+
+  #container{
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 10px;
+
+    header{
+      text-align: center;
+
+      h1{
+        font-size: 24px;
+        font-weight: normal;
+      }
+
+      p{
+        margin:20px;
+      }
+    }
+
+    #forms{
+      margin: 0 auto;
+      border-top:2px solid #EEEEEE;
+      width: 700px;
+      padding-top: 30px;
+
+      #new-account{
+        width: 300px;
+
+        label{
+          font-size: 0.9em;
+        }
+      }
+
+      #login {
+        float: right;
+        width: 300px;
+
+        a{
+          text-decoration: none;
+          color: tomato;
+          font-size: 0.9em;
+
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+input{
+  display: block;
+  width: 286px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid #EEEEEE;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+#new-account, #login{
+  display: inline-block;
+}
+
+#checkbox{
+  margin-left: 0;
+  display: inline-block;
+  height: auto;
+  width: auto;
+}
+
+.green{
+  background: url("../images/ok.png")no-repeat;
+  background-position: right;
+}
+
+.red{
+  background: url("../images/no.png")no-repeat;
+  background-position: right;
+}
+
+input[type="submit"]{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background-color: #EEEEEE;
+  font-weight: bold;
+  padding: 4px 15px;
+  width: auto;
+
+  &:hover{
+    background-color: chartreuse;
+  }
+}

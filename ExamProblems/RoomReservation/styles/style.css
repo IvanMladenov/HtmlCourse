@@ -1,0 +1,92 @@
+body {
+  font: 13px Tahoma, Helvetica, sans-serif; }
+  body #container {
+    width: 800px;
+    background-color: rgba(190, 190, 190, 0.35); }
+    body #container header {
+      margin: 0 auto;
+      width: 760px;
+      height: 100px;
+      border-bottom: 1px dashed lightgray;
+      background-color: rgba(250, 250, 250, 0.5); }
+      body #container header p {
+        font-size: 28px;
+        font-weight: normal;
+        color: deepskyblue;
+        position: absolute;
+        margin-left: 20px;
+        vertical-align: middle; }
+    body #container section div {
+      display: inline-block;
+      width: 400px; }
+    body #container section aside {
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 16px; }
+    body #container main {
+      margin: 0 auto;
+      width: 760px; }
+      body #container main .details input {
+        display: block;
+        margin-bottom: 10px; }
+      body #container main .request {
+        display: inline-block;
+        vertical-align: top;
+        float: right; }
+        body #container main .request .time-interval input {
+          width: 220px; }
+    body #container footer {
+      margin: 0 auto;
+      border-top: 1px dashed lightgray;
+      text-align: right;
+      height: 120px;
+      width: 760px; }
+      body #container footer input {
+        padding: 5px 30px;
+        margin: 30px 20px;
+        background-color: deepskyblue;
+        border-radius: 5px;
+        border-style: none;
+        font-weight: bold;
+        color: white; }
+
+select {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  display: inline-block; }
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  border-style: none;
+  display: inline-block; }
+  fieldset legend {
+    padding: 0; }
+
+form {
+  display: inline-block;
+  margin: 20px; }
+  form input {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0 0 0 5px; }
+
+legend {
+  margin-bottom: 20px; }
+
+label {
+  display: block;
+  font-size: 0.8em; }
+
+span {
+  display: inline-block; }
+
+#first {
+  margin-right: 22px; }
+
+/*# sourceMappingURL=style.css.map */

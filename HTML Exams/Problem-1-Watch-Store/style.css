@@ -1,0 +1,79 @@
+
+@font-face {
+   font-family: Lemon;
+    src: url('Lemon-Regular.ttf');
+}
+body{
+   font-family: Lemon , Arial;
+}
+#wrapper{
+    background-color: #602D75;
+    width: 1000px;
+    padding: 20px 0px;
+}
+img{
+    width: 100%;
+    margin: 10px auto;
+   display: block;
+    border-radius: 50%;
+    border:6px solid #806671;
+    box-sizing: border-box;
+}
+img:hover{
+    border-color: #FA4F00;
+    cursor: pointer;
+}
+header>h1{
+    font-size: 24px;
+    text-align: center;
+}
+section{
+    background-color: #FFAE32;
+    padding: 10px;
+    border-radius: 10px;
+    width: 900px;
+    margin: 0px auto;
+}
+article{
+    background-color: #5F2056;
+    display: inline-block;
+    color: #fff;
+    width: 220px;
+    margin: 0px 10px;
+    border-radius: 25px 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+article> h2,article.h4{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+article>h2{
+    margin: 10px;
+    font-size: 22px;
+}
+article>h4{
+    color:#FFC350 ;
+    font-size: 15px;
+    text-align: center;
+}
+p{
+    font-size: 15px;
+    margin: 5px;
+}
+button{
+    font-size: 15px;
+    color: #9E4AFF;
+    width: 100%;
+    border-radius: 20px;
+    font-family: Lemon;
+}
+button:hover{
+    cursor: pointer;
+     color: #000017;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
