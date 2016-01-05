@@ -1,0 +1,117 @@
+@font-face {
+  font-family: RicksAmericanNF;
+  src: url(fonts/RicksAmericanNF.ttf); }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black; }
+  body #wrapper {
+    width: 960px;
+    margin: 0 auto; }
+    body #wrapper header {
+      font-family: RicksAmericanNF;
+      color: #FFA300;
+      text-align: center;
+      padding-bottom: 10px; }
+      body #wrapper header h1 {
+        text-transform: uppercase;
+        font-size: 60px;
+        margin: 0;
+        letter-spacing: 15px;
+        word-spacing: 20px; }
+      body #wrapper header nav {
+        font-size: 30px;
+        text-transform: uppercase;
+        word-spacing: 150px; }
+        body #wrapper header nav ul {
+          margin: 0; }
+          body #wrapper header nav ul li {
+            display: inline-block;
+            padding: 5px 20px; }
+            body #wrapper header nav ul li:hover {
+              background-color: #FFA300;
+              padding: 5px 20px;
+              border-radius: 30px; }
+              body #wrapper header nav ul li:hover a {
+                color: black; }
+            body #wrapper header nav ul li a {
+              text-decoration: none;
+              color: #FFA300; }
+    body #wrapper main {
+      background-color: #3C3C3C;
+      height: 720px; }
+      body #wrapper main #sections {
+        width: 600px;
+        margin-left: 20px;
+        display: inline-block; }
+        body #wrapper main #sections section {
+          color: #FFA300;
+          display: block;
+          margin-bottom: 100px; }
+          body #wrapper main #sections section h2 {
+            text-transform: uppercase;
+            font-size: 23px;
+            font-weight: bold;
+            text-align: center;
+            margin: 5px; }
+          body #wrapper main #sections section article div.picture img {
+            float: left;
+            width: 320px;
+            height: auto;
+            margin-right: 3px;
+            clear: both; }
+          body #wrapper main #sections section article p {
+            font-size: 16px;
+            text-align: justify;
+            margin: 0;
+            display: block;
+            text-indent: 30px; }
+            body #wrapper main #sections section article p span {
+              font-style: italic;
+              font-weight: bold; }
+      body #wrapper main aside {
+        display: inline-block;
+        vertical-align: top;
+        margin: 10px 0 0 30px; }
+        body #wrapper main aside #top {
+          width: 250px;
+          height: 200px;
+          background: url("../images/blues-legends.jpg");
+          background-size: cover;
+          position: relative;
+          border-radius: 7px;
+          border: 1px solid #FFA300;
+          margin-bottom: 20px; }
+          body #wrapper main aside #top:hover .out {
+            background-color: #FFA300;
+            color: black; }
+        body #wrapper main aside #bottom {
+          width: 250px;
+          height: 150px;
+          background: url("../images/BBKing.jpg");
+          background-size: cover;
+          position: relative;
+          border-radius: 7px;
+          border: 1px solid #FFA300; }
+          body #wrapper main aside #bottom:hover .out {
+            background-color: #FFA300;
+            color: black; }
+
+footer {
+  text-align: center;
+  color: #FFA300;
+  height: 40px;
+  padding-top: 10px; }
+
+.out {
+  width: 250px;
+  vertical-align: bottom;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  color: #FFA300;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px; }
+
+/*# sourceMappingURL=style.css.map */

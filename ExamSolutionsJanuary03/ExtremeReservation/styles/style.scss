@@ -1,0 +1,190 @@
+body{
+  background: url("../images/background.jpg") no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+
+  #container{
+    margin: 0 auto;
+    width: 740px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 30px;
+    border-radius: 20px;
+
+    header{
+      text-align: center;
+
+      nav{
+        ul{
+          li{
+            display: inline-block;
+            height: 48px;
+            vertical-align: middle;
+            font-size: 20px;
+            color: #1F669E;
+            line-height: 48px;
+            padding-left: 48px;
+            margin-right: 30px;
+          }
+
+          #paragliding{
+            background: url("../images/paraglider-icon.png") no-repeat;
+            background-color: #73A9CF;
+            background-position: left;
+            border-radius: 7px;
+          }
+
+          #skydiving{
+            background: url("../images/sky-diver.png") no-repeat;
+            background-position: left;
+
+            &:hover{
+              background-color: #73A9CF;
+              border-radius: 7px;
+              cursor: pointer;
+            }
+          }
+
+          #climbing{
+            background: url("../images/climbing.png") no-repeat;
+            background-position: left;
+
+            &:hover{
+              background-color: #73A9CF;
+              border-radius: 7px;
+              cursor: pointer;
+            }
+          }
+
+          #info{
+            background: url("../images/about-us.png") no-repeat;
+            background-position: left;
+
+            &:hover{
+              background-color: #73A9CF;
+              border-radius: 7px;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+
+    main{
+      fieldset{
+        height: 270px;
+        margin: 0;
+        display: inline-block;
+        vertical-align: top;
+        width: 335px;
+        text-align: center;
+        color: #1F669E;;
+        border: 2px solid #1F669E;
+        border-radius: 15px;
+
+        legend.fieldset{
+          font-weight: bold;
+        }
+
+        input{
+          display: block;
+          width: 100%;
+          height: 30px;
+          text-align: center;
+          font-size: 22px;
+          border-radius: 30px;
+          color: rgba(115, 169, 207, 0.9);
+          margin-bottom: 15px;
+          border: 1px solid #1F669E;
+        }
+
+        select{
+          display: block;
+          width: 100%;
+          height: 40px;
+          border-radius: 30px;
+          color: #1F669E;
+          border: 1px solid #1F669E;;
+          margin-bottom: 10px;
+
+          optgroup{
+            font-style: normal;
+
+            option{
+              font-size: 14px;
+            }
+          }
+        }
+
+        input[type="text"]{
+          background: url("../images/user1.png") no-repeat;
+          background-position: left;
+          margin-top: 40px;
+          background-color: rgba(255, 255, 255, 0.6);
+        }
+
+        input[type="email"]{
+          background: url("../images/email.png") no-repeat;
+          background-position: left;
+          background-color: rgba(255, 255, 255, 0.6);
+        }
+
+        input[type="tel"]{
+          background: url("../images/phone.png") no-repeat;
+          background-position: left;
+          background-color: rgba(255, 255, 255, 0.6);
+        }
+
+        #radio{
+          text-align: center;
+          vertical-align: middle;
+          margin-top: 40px;
+
+          input[type="radio"]{
+            width: auto;
+            height: auto;
+            display: inline-block;
+          }
+        }
+      }
+    }
+    footer{
+      text-align: right;
+      padding-top: 10px;
+
+      #clear{
+        color: red;
+        border: 2px solid red;
+
+        &:hover{
+          background-color: red;
+          color: white;
+          cursor: pointer;
+        }
+      }
+
+      #send{
+        color: lawngreen;
+        border: 2px solid lawngreen;
+        margin-right: 7px;
+
+        &:hover{
+          background-color: lawngreen;
+          color: white;
+          cursor: pointer;
+        }
+      }
+
+      #clear, #send{
+        padding: 7px;
+        border-radius: 10px;
+        background-color: transparent;
+        font-weight: bold;
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+input, select{
+  background-color: rgba(255, 255, 255, 0.6);
+}
